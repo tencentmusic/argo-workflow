@@ -1,0 +1,19 @@
+.DS_Store
+.idea
+__pycache__
+install/docker/file
+install/docker/docker-compose.yml
+myapp/static/file
+myapp/test
+# /myapp/vision/.env
+# /myapp/static/appbuilder/vison/*
+/myapp/static/appbuilder/mnt
+/myapp/static/appbuilder/assets/
+/images/tfserving/tlinux-Dockerfile
+/images/serving/onnxruntime/onnxruntime-1.9.1/
+/images/serving/onnxruntime/onnxruntime-1.10.0/
+/images/service-pipeline/kafka-github/
+/myapp/visionPlus/node_modules
+/myapp/frontend/node_modules
+/myapp/music/node_modules
+/install/docker/docker-compose.yml
