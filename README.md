@@ -1,5 +1,11 @@
 # argo dashboard
-argo dashboard是由TME研发的集成云原生argo pipeline编排
+argo dashboard是由TME研发的云原生argo pipeline编排。基于argo的云原生调度，包含项目管理，在线notebook，在线镜像构建，拖拉拽编排pipeline，定时调度，实例管理。
+
+
+平台完成部署之后如下:
+
+![image](./docs/example/pic/pipeline.png)
+
 
 # 开源共建
 
@@ -40,10 +46,6 @@ cube会自动为用户挂载用户个人目录，同一个用户在平台任何�
 # 平台部署
 
 参考install/README.md
-
-平台完成部署之后如下:
-
-![image](./docs/example/pic/pipeline.png)
 
 
 
