@@ -5,7 +5,8 @@ argo dashboard是由TME研发的云原生argo pipeline编排。基于argo的云�
 
 平台完成部署之后如下:
 
-![image](https://user-images.githubusercontent.com/20157705/167534850-e7f40f1e-058d-4370-be01-8bbcaf80c3e0.png)
+![image](https://user-images.githubusercontent.com/20157705/167557020-082a0c2e-ad2c-441d-a1db-e75c1080bb39.png)
+
 # 开源共建
 
 有意向进行开源共建的同学请微信添加767065521并备注"开源共建"进入微信群.
