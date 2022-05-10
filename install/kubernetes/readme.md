@@ -1,12 +1,12 @@
-# 机器/k8s环境/ceph环境准备  
-机器环境准备：准备docker，准备rancher，部署k8s。如果已经有可以忽略，没有可以参考rancher/readme.md  
+# 机器/k8s环境/分布式存储环境准备  
+机器环境准备：准备docker，准备rancher，部署k8s。如果已经有可以忽略，没有可以参考[rancher/readme.md](https://github.com/tencentmusic/cube-studio/tree/master/install/kubernetes/rancher) 
 
 
 # 分布式存储
 
 如果不使用分布式存储可忽略。
 
-需要每台机器都有对应的目录/data/k8s为分布式存储目录
+需要每台机器都有对应的目录/data/k8s为分布式存储目录，如果使用云存储，自定义修改pv的yaml文件
 ```bash  
 mkdir -p /data/k8s/kubeflow/pipeline/workspace  
 ```  
@@ -18,21 +18,12 @@ rancher修改kubelet容器挂载目录(选中集群-升级-编辑yaml)
         - '/data/k8s:/data/k8s'
 ```
   
-# 仓库秘钥
+# 创建仓库秘钥
 ```bash  
 修改里面的docker hub拉取账号密码  
 sh create_ns_secret.sh  
 ```  
   
-# 单机测试
-
-在单机上将k8s的kubeconfig文件保存为
-cube-studio/install/kubernetes/config
-```
-cd cube-studio/install/kubernetes/
-sh start.sh
-```
- 
 # 通过label进行机器管理  
 开发训练服务机器管理：
 - 对于cpu的任务会选择cpu=true的机器  
@@ -58,9 +49,7 @@ kubectl apply -k cube/overlays
 配置文件说明  
  - cube/overlays/config/entrypoint.sh 镜像启动脚本  
  - cube/overlays/config/config.py  配置文件，需要将其中的配置项替换为自己的  
-  
-部署入口  
-cube/overlays/kustomization.yml    
+ 
 
 ## 部署pv-pvc.yaml  
 
