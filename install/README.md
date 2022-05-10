@@ -14,7 +14,8 @@
 
 平台完成部署之后如下:
 
-![image](../docs/example/pic/pipeline.png)
+![image](https://user-images.githubusercontent.com/20157705/167534850-e7f40f1e-058d-4370-be01-8bbcaf80c3e0.png)
+
 
 
 # 本地开发
