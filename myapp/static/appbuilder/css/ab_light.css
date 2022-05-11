@@ -4,12 +4,14 @@
 /* Global */
 html, body {
 	/* font: 20px/2 "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Microsoft Yahei","Helvetica Neue","Helvetica","Arial",sans-serif; */
+	font-size: 20px;
 	color: #1e1653;
 	height: 100%;
 }
 body {
 	background-color: #fcfcfc;
 }
+
 .di-avatar {
 	width: 32px;
 	height: 32px;
@@ -93,7 +95,7 @@ textarea.form-control {
 	}
 	.navbar-inverse .navbar-nav>li>a {
 		/* font-size: .8rem; */
-		font-size: 1.4rem;
+		font-size: 14px;
 		color: #1e1653;
 		margin: 12px 6px;
 		transition: all .25s;
