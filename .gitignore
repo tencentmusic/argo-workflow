@@ -16,4 +16,3 @@ myapp/test
 /myapp/visionPlus/node_modules
 /myapp/frontend/node_modules
 /myapp/music/node_modules
-/install/docker/docker-compose.yml
