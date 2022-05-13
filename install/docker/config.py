@@ -728,7 +728,7 @@ CLUSTERS={
     "dev":{
         "NAME":"dev",
         # "KUBECONFIG":'/home/myapp/kubeconfig/dev-kubeconfig',
-        "K8S_DASHBOARD_CLUSTER":'http://kubeflow.local.com/k8s/dashboard/cluster/',
+        "K8S_DASHBOARD_CLUSTER":'/k8s/dashboard/cluster/',
         "PIPELINE_URL": PIPELINE_URL,
     }
 }
