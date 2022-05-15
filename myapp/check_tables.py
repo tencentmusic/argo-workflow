@@ -22,7 +22,7 @@ def check_tables():
         print(results)
         for table_name in ['ab_permission','ab_permission_view','ab_permission_view_role','ab_register_user','ab_role','ab_user','ab_user_role','ab_view_menu','alembic_version','docker','job_template','logs','notebook','pipeline','project','project_user','run','task','user_attribute','workflow']:
             if table_name not in results:
-                print('pipeline db下，table不完整，请\n1、kubectl delete -k cube/overlays\n2、drop database pipeline\n3、kubectl apply -k cube/overlays')
+                print('pipeline db下，table不完整，缺少%s表，可等待init任务完成，或\n1、kubectl delete -k cube/overlays\n2、drop database pipeline\n3、kubectl apply -k cube/overlays'%table_name)
                 exit(1)
 
 check_tables()

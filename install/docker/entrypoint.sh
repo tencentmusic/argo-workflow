@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#set -ex
+set -ex
 
 rm -rf /home/myapp/myapp/static/assets
 ln -s /home/myapp/myapp/assets /home/myapp/myapp/static/
