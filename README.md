@@ -2,7 +2,7 @@
 
 argo dashboard是由TME研发的云原生argo pipeline编排。基于argo的云原生调度，包含项目管理，在线notebook，在线镜像构建，拖拉拽编排pipeline，定时调度，实例管理。
 
-[部署使用视频](https://pengluan-76009.sz.gfp.tencent-cloud.com/argo-workflow.mp4)
+[部署使用视频](https://www.bilibili.com/video/BV18g411d75r/)
 
 平台完成部署之后如下:
 
