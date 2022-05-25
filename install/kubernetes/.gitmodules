@@ -1,0 +1,3 @@
+[submodule "rancher"]
+	path = rancher
+	url = https://github.com/tencentmusic/cube-studio/tree/master/install/kubernetes/rancher
