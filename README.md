@@ -1,3 +1,5 @@
+# 转至cube-studio项目  https://github.com/tencentmusic/cube-studio
+
 # argo dashboard
 
 argo dashboard是由TME研发的云原生argo pipeline编排。基于argo的云原生调度，包含项目管理，在线notebook，在线镜像构建，拖拉拽编排pipeline，定时调度，实例管理。
